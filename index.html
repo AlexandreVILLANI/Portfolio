@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio Alexandre VILLANI</title>
-  <link rel="icon" href="width_800.jpeg" />
+  <link rel="icon" href="logoSite.jpg" />
   <style>
     /* Style général années 2000 */
     body {
@@ -471,11 +471,7 @@
   </style>
 </head>
 <body>
-  <!-- Compteur de visites nostalgique -->
-  
-
   <div class="container">
-    <!-- Marquee texte défilant -->
     <div class="marquee">
       <span>✦ Bienvenue sur mon portfolio de stage ✦ Découvrez mon travail ✦ Style années 2000 ✦ Bienvenue ✦</span>
     </div>
@@ -521,7 +517,7 @@
     <h2>À propos / Présentation de l'entreprise</h2>
     <div class="about">
         <p>JLConcept, spécialiste de la maintenance informatique à Ronchamp, accompagne depuis plus de 15 ans les entreprises,
-         professions libérales et collectivités. Nous bâtissons une relation de confiance durable avec nos clients grâce à des services 
+         professions libérales et collectivités. Bâtissant une relation de confiance durable avec nos clients grâce à des services 
          flexibles et réactifs : 
         télémaintenance, gestion de parc informatique et contrats de maintenance personnalisés.</p>
     </div>
@@ -661,23 +657,23 @@
         <figcaption>Figure 6 : Requête PATCH pour modifier une activité</figcaption>
       <h3> Problème du multi-site </h3>
       <p class="white">
-        Le code du site étant hébergé sur deux serveurs distincts — un pour le front-end et un pour le back-end —,
-        il s'agit d’un <span class="cyan">multi-site</span>.  
-        En effet, le front-end est accessible via l’URL principale du site, tandis que le back-end l’est via une autre URL distincte.
-        <br><br>
-        Cette architecture pose un problème pour la gestion des sessions, car le front-end et le back-end ne partagent pas le même domaine.
-        La plupart des navigateurs gèrent cela sans problème, mais au cours du développement, j’ai constaté que les sessions ne fonctionnaient pas correctement sur Safari.
-        <br><br>
-        Safari active par défaut une option appelée <em>"Empêcher le suivi intersites"</em>, qui bloque le partage des cookies de session entre deux domaines différents.
-        En conséquence, les utilisateurs ne pouvaient pas se connecter au site depuis ce navigateur.
-        <br><br>
-        Pour résoudre ce problème, j’ai tenté de configurer le back-end afin qu’il utilise un cookie de session associé au même domaine que le front-end.
-        Toutefois, Safari continue de bloquer les cookies tiers, même avec cette configuration.
-        <br><br>
-        Ne souhaitant pas modifier entièrement le système d’authentification — par souci de sécurité et de délais —,
-        j’ai choisi d’implémenter une solution temporaire côté front-end : si l’utilisateur accède au site depuis Safari,
-        un message d’avertissement s’affiche pour l’informer que certaines fonctionnalités, comme la connexion, peuvent ne pas fonctionner.
-      </p>
+  Le code du site étant hébergé sur deux serveurs distincts — un pour le front-end et un pour le back-end,
+  il s'agit d’un <span class="cyan">multi-site</span>.  
+  En effet, le front-end est accessible via l’URL principale du site, tandis que le back-end l’est via une autre URL distincte.
+  <br><br>
+  Cette architecture pose un problème pour la gestion des sessions, car le front-end et le back-end ne partagent pas le même domaine.
+  La plupart des navigateurs gèrent cela sans problème, mais au cours du développement, j’ai constaté que les sessions ne fonctionnaient pas correctement sur Safari.
+  <br><br>
+  Safari active par défaut une option appelée <em>"Empêcher le suivi intersites"</em>, qui bloque le partage des cookies de session entre deux domaines différents.
+  En conséquence, les utilisateurs ne pouvaient pas se connecter au site depuis ce navigateur.
+  <br><br>
+  Pour résoudre ce problème, j’ai tenté de configurer le back-end afin qu’il utilise un cookie de session associé au même domaine que le front-end.
+  Toutefois, Safari continue de bloquer les cookies tiers, même avec cette configuration.
+  <br><br>
+  Ne souhaitant pas modifier entièrement le système d’authentification, par souci de sécurité et de délais,
+  j’ai choisi d’implémenter une solution temporaire côté front-end : si l’utilisateur accède au site depuis Safari,
+  un message d’avertissement s’affiche pour l’informer que certaines fonctionnalités, comme la connexion, peuvent ne pas fonctionner.
+</p>
     </details>
 
     <h3 class="compétence2">Compétence 2 - Optimiser des applications</h3>
