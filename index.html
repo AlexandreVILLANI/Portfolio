@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio Alexandre VILLANI</title>
-    <link rel="icon" href="width_800.jpeg" />
+  <link rel="icon" href="width_800.jpeg" />
   <style>
+    /* Style général années 2000 */
     body {
       background-color: #FF00FF;
       color: lime;
@@ -12,95 +13,203 @@
       text-align: center;
       margin: 0;
       padding: 0;
-      background-image: url('https://www.transparenttextures.com/patterns/80s-tile.png');
+      background-image: url('https://www.transparenttextures.com/patterns/80s-tile.png'), 
+                      url('https://www.transparenttextures.com/patterns/psychedelic.png');
       background-repeat: repeat;
       display: flex;
       justify-content: center;
-      cursor: url(https://cur.cursors-4u.net/toons/too-4/too368.cur), auto; 
-      
+      cursor: url('https://cur.cursors-4u.net/toons/too-4/too368.cur'), auto;
+      animation: bgScroll 20s linear infinite;
     }
 
-    .linkwebsite{
-        cursor : url('data:image/x-icon;base64,AAACAAEAICAAABEAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8gAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+gAAAP//////////////////////////////////////AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/////////////////////////////////////////////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////////////////AAAA////////////TU1N//////8AAAD///////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD///////////8AAAD//////wAAAP///////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////////////////////////////////wAAAP///////////wAAAP///////////wAAAP///////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////////////////////////////////AAAA////////////AAAA////////////AAAA/////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD///////////////////////////////////////////8AAAD///////////8AAAD///////////8AAAD/////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDAAAA/wAAAP///////////////////////////////////////////////////////////////////////////wAAAP////////////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////////////////////wAAAP//////////////////////////////////////////////////////////////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////////////////////////////////8AAAD/AAAAAAAAAP////////////////////////////////////////////////////////////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD///////Hx8f8AAAD/AAAA/wAAAAAAAAAAAAAA/////////////////////////////////////////////////////////////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////////////////////////////////////////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////////////////////////////////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////////////////////////////AAAA////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD///////////////////////////8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////wAAAP//////////////////////GRkZ/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////AAAA//////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD///////////8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8B///8AH///AB///gAf//4AD//+AAf//AAD//gAA//wAAH/gAAB/AAAAfgAAAD4AAAA+AAAAPwCAAD+BgAA/74AAP/+AAH//gAB//4AA//+AA///gAf//4AP//+AP///gP///4D///+A////gP///4D////A////wP////H/8='), auto; 
-    }
-    
-
-    .gif-background {
-        position: absolute;
-        top: 50px;
-        left: 100px;
-        width: 100px;
-        height: 100px;
-        background-image: url('ton-gif.gif');
-        background-size: contain;
-        background-repeat: no-repeat;
+    /* Animation du fond */
+    @keyframes bgScroll {
+      0% { background-position: 0 0, 0 0; }
+      100% { background-position: 100px 100px, 200px 200px; }
     }
 
+    /* Style des liens */
+    .linkwebsite {
+      cursor: url('data:image/x-icon;base64,AAACAAEAICAAABEAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8gAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+gAAAP//////////////////////////////////////AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/////////////////////////////////////////////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////////////////AAAA////////////TU1N//////8AAAD///////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD///////////8AAAD//////wAAAP///////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////////////////////////////////wAAAP///////////wAAAP///////////wAAAP///////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////////////////////////////////AAAA////////////AAAA////////////AAAA/////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD///////////////////////////////////////////8AAAD///////////8AAAD///////////8AAAD/////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDAAAA/wAAAP///////////////////////////////////////////////////////////////////////////wAAAP////////////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////////////////////wAAAP//////////////////////////////////////////////////////////////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////////////////////////////////8AAAD/AAAAAAAAAP////////////////////////////////////////////////////////////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD///////Hx8f8AAAD/AAAA/wAAAAAAAAAAAAAA/////////////////////////////////////////////////////////////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////////////////////////////////////////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////////////////////////////////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////////////////////////////AAAA////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD///////////////////////////8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////wAAAP//////////////////////GRkZ/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////AAAA//////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD///////////8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8B///8AH///AB///gAf//4AD//+AAf//AAD//gAA//wAAH/gAAB/AAAAfgAAAD4AAAA+AAAAPwCAAD+BgAA/74AAP/+AAH//gAB//4AA//+AA///gAf//4AP//+AP///gP///4D///+A////gP///4D////A////wP////H/8='), auto;
+      text-decoration: none;
+      font-weight: bold;
+      position: relative;
+      display: inline-block;
+    }
 
+    .linkwebsite:hover {
+      color: #FF00FF;
+      text-shadow: 0 0 5px lime, 0 0 10px lime;
+    }
+
+    .linkwebsite::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: -2px;
+      left: 0;
+      background: linear-gradient(90deg, transparent, lime, transparent);
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+
+    .linkwebsite:hover::after {
+      transform: scaleX(1);
+    }
+
+    /* Conteneur principal */
     .container {
       max-width: 800px;
-      margin: 0 auto;
+      margin: 20px auto;
       background-color: black;
-      padding: 50px;
-      border-left: 20px solid cyan;
-      border-right: 20px solid cyan;
+      padding: 30px;
+      border-left: 10px solid cyan;
+      border-right: 10px solid cyan;
+      box-shadow: 0 0 20px magenta, 0 0 40px cyan;
+      position: relative;
+      overflow: hidden;
     }
 
+    .container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background: linear-gradient(90deg, magenta, cyan, yellow, lime, magenta);
+      animation: rainbow 5s linear infinite;
+    }
+
+    @keyframes rainbow {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+    }
+
+    /* Titres */
     h1 {
       font-size: 48px;
-      text-shadow: 2px 2px 5px yellow;
-      animation: blink 1s infinite alternate;
+      text-shadow: 0 0 10px yellow, 0 0 20px yellow;
+      animation: blink 1s infinite alternate, rainbowText 8s linear infinite;
       border: 5px dotted cyan;
       padding: 20px;
       background-color: black;
+      margin-top: 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    h1::after {
+      content: '';
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+      border: 2px dashed magenta;
+      animation: pulse 2s infinite alternate;
+      pointer-events: none;
     }
 
     h2 {
       font-size: 32px;
-      text-shadow: 1px 1px 3px red;
+      text-shadow: 0 0 5px red, 0 0 10px red;
       border-bottom: 3px dashed lime;
       padding-bottom: 10px;
       margin-top: 40px;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    h3 {
+      font-size: 24px;
+      text-shadow: 0 0 5px yellow, 0 0 10px yellow;
+      animation: shake 0.5s ease infinite alternate;
+    }
+
+    /* Animations */
+    @keyframes blink {
+      from { opacity: 1; }
+      to { opacity: 0.7; }
+    }
+
+    @keyframes rainbowText {
+      0% { color: lime; }
+      20% { color: yellow; }
+      40% { color: cyan; }
+      60% { color: magenta; }
+      80% { color: red; }
+      100% { color: lime; }
+    }
+
+    @keyframes pulse {
+      from { transform: scale(1); opacity: 0.5; }
+      to { transform: scale(1.05); opacity: 1; }
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 5px red, 0 0 10px red; }
+      to { text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red; }
+    }
+
+    @keyframes shake {
+      from { transform: translateX(-2px); }
+      to { transform: translateX(2px); }
+    }
+
+    /* Sections */
+    .about, .mission {
+      text-align: left;
+      background-color: #222;
+      padding: 20px;
+      margin-top: 20px;
+      position: relative;
+      overflow: hidden;
     }
 
     .about {
-      text-align: left;
       color: yellow;
-      background-color: #222;
-      padding: 20px;
       border: 2px dashed magenta;
-      margin-top: 20px;
+      box-shadow: 0 0 10px magenta inset;
     }
 
     .mission {
-      text-align: left;
       color: rgb(0, 242, 255);
-      background-color: #222;
-      padding: 20px;
       border: 2px dashed rgb(255, 30, 0);
-      margin-top: 20px;
+      box-shadow: 0 0 10px rgb(255, 30, 0) inset;
     }
 
     .PS {
       font-size: 7px;
       color: rgb(255, 0, 0);
       text-align: center;
+      animation: blink 0.5s infinite alternate;
+    }
+
+    /* Compétences */
+    .compétence1, .compétence2 {
+      font-size: 24px;
+      text-decoration: underline;
+      margin-top: 30px;
+      text-shadow: 0 0 5px currentColor;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .compétence1:hover, .compétence2:hover {
+      transform: scale(1.05);
+      text-shadow: 0 0 10px currentColor, 0 0 20px currentColor;
     }
 
     .compétence1 {
-      font-size: 24px;
       color: yellow;
-      text-decoration: underline;
-      margin-top: 30px;
     }
 
     .compétence2 {
-      font-size: 24px;
-      color: yellow;
-      text-decoration: underline;
-      margin-top: 30px;
+      color: cyan;
     }
 
+    /* Texte */
     .white {
       color: white;
       font-size: 16px;
@@ -108,68 +217,279 @@
       text-align: justify;
     }
 
-    .cyan{
-        color: cyan;
-        font-weight: bold;
+    .cyan {
+      color: cyan;
+      font-weight: bold;
+      text-shadow: 0 0 5px cyan;
     }
 
-    .rouge{
-        color: red;
-        font-weight: bold;
+    .rouge {
+      color: red;
+      font-weight: bold;
+      text-shadow: 0 0 5px red;
     }
 
-    .vert{
-        color: green;
-        font-weight: bold;
+    .vert {
+      color: green;
+      font-weight: bold;
+      text-shadow: 0 0 5px green;
     }
 
-    .magenta{
-        color: magenta;
-        font-weight: bold;
+    .magenta {
+      color: magenta;
+      font-weight: bold;
+      text-shadow: 0 0 5px magenta;
     }
 
-    .jaune{
-        color: yellow;
-        font-weight: bold;
+    .jaune {
+      color: yellow;
+      font-weight: bold;
+      text-shadow: 0 0 5px yellow;
     }
+
+    /* Détails/Accordéon */
     details {
-    background-color: #1e1e1e;
-    color: white;
-    padding: 1em;
-    border-radius: 8px;
-    border: 1px solid #444;
-  }
+      background-color: #1e1e1e;
+      color: white;
+      padding: 1em;
+      border-radius: 8px;
+      border: 1px solid #444;
+      margin-top: 15px;
+      transition: all 0.3s ease;
+    }
 
-  summary {
-    cursor: url('data:image/x-icon;base64,AAACAAEAICAAABEAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8gAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+gAAAP//////////////////////////////////////AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/////////////////////////////////////////////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////////////////AAAA////////////TU1N//////8AAAD///////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD///////////8AAAD//////wAAAP///////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////////////////////////////////wAAAP///////////wAAAP///////////wAAAP///////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////////////////////////////////AAAA////////////AAAA////////////AAAA/////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD///////////////////////////////////////////8AAAD///////////8AAAD///////////8AAAD/////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDAAAA/wAAAP///////////////////////////////////////////////////////////////////////////wAAAP////////////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////////////////////wAAAP//////////////////////////////////////////////////////////////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////////////////////////////////8AAAD/AAAAAAAAAP////////////////////////////////////////////////////////////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD///////Hx8f8AAAD/AAAA/wAAAAAAAAAAAAAA/////////////////////////////////////////////////////////////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////////////////////////////////////////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////////////////////////////////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////////////////////////////AAAA////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD///////////////////////////8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////wAAAP//////////////////////GRkZ/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////AAAA//////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD///////////8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8B///8AH///AB///gAf//4AD//+AAf//AAD//gAA//wAAH/gAAB/AAAAfgAAAD4AAAA+AAAAPwCAAD+BgAA/74AAP/+AAH//gAB//4AA//+AA///gAf//4AP//+AP///gP///4D///+A////gP///4D////A////wP////H/8='), auto; 
-    font-weight: bold;
-    list-style: none;
-  }
+    details:hover {
+      box-shadow: 0 0 10px lime;
+    }
 
-  summary::marker {
-    content: "▶ "; /* flèche fermée */
-  }
+    summary {
+      cursor: url('data:image/x-icon;base64,AAACAAEAICAAABEAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8gAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+gAAAP//////////////////////////////////////AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/////////////////////////////////////////////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////////////////AAAA////////////TU1N//////8AAAD///////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD///////////8AAAD//////wAAAP///////////wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////////////////////////////////wAAAP///////////wAAAP///////////wAAAP///////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////////////////////////////////AAAA////////////AAAA////////////AAAA/////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD///////////////////////////////////////////8AAAD///////////8AAAD///////////8AAAD/////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDAAAA/wAAAP///////////////////////////////////////////////////////////////////////////wAAAP////////////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////////////////////wAAAP//////////////////////////////////////////////////////////////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////////////////////////////////8AAAD/AAAAAAAAAP////////////////////////////////////////////////////////////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD///////Hx8f8AAAD/AAAA/wAAAAAAAAAAAAAA/////////////////////////////////////////////////////////////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////////////////////////////////////////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////////////////////////////////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////////////////////////////AAAA////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD///////////////////////////8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////wAAAP//////////////////////GRkZ/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////AAAA//////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD///////////8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8B///8AH///AB///gAf//4AD//+AAf//AAD//gAA//wAAH/gAAB/AAAAfgAAAD4AAAA+AAAAPwCAAD+BgAA/74AAP/+AAH//gAB//4AA//+AA///gAf//4AP//+AP///gP///4D///+A////gP///4D////A////wP////H/8='), auto;
+      font-weight: bold;
+      list-style: none;
+      transition: all 0.3s ease;
+    }
 
-  details[open] summary::marker {
-    content: "▼ "; /* flèche ouverte */
-  }
+    summary:hover {
+      color: cyan;
+    }
 
-  .oui{
-    text-align: left;
-  }
+    summary::before {
+      content: "▶ ";
+      color: lime;
+      margin-right: 5px;
+    }
 
-    @keyframes blink {
-      from { opacity: 1; }
-      to { opacity: 0.5; }
+    details[open] summary::before {
+      content: "▼ ";
+      color: red;
+    }
+
+    .oui {
+      text-align: left;
+      margin-left: 20px;
+    }
+
+    /* Images */
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 3px ridge magenta;
+      margin: 10px 0;
+      transition: all 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 15px yellow;
+    }
+
+    figcaption {
+      color: white;
+      font-size: 14px;
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: black;
+      padding: 20px;
+      border: 3px dotted cyan;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    nav::before, nav::after {
+      content: '✦';
+      color: magenta;
+      position: absolute;
+      font-size: 24px;
+    }
+
+    nav::before {
+      left: 10px;
+      top: 10px;
+    }
+
+    nav::after {
+      right: 10px;
+      bottom: 10px;
+    }
+
+    /* Boutons */
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: linear-gradient(to bottom, yellow, #FF9900);
+      color: blue;
+      font-weight: bold;
+      text-decoration: none;
+      border: 3px outset red;
+      font-family: 'Comic Sans MS';
+      text-shadow: 1px 1px 1px black;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: linear-gradient(to bottom, #FF9900, yellow);
+      transform: translateY(-2px);
+      box-shadow: 0 0 10px yellow;
+    }
+
+    /* Colonnes */
+    .columns {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      gap: 20px;
+    }
+
+    .column {
+      flex: 1;
+      background-color: #111;
+      padding: 15px;
+      color: white;
+      transition: all 0.3s ease;
+    }
+
+    .column:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px magenta;
+    }
+
+    .column-cyan {
+      border: 2px dashed cyan;
+    }
+
+    .column-lime {
+      border: 2px dashed lime;
+    }
+
+    /* Marquee (animation texte défilant) */
+    .marquee {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      box-sizing: border-box;
+      background: black;
+      color: yellow;
+      padding: 10px;
+      margin: 20px 0;
+      border-top: 1px dashed magenta;
+      border-bottom: 1px dashed magenta;
+    }
+
+    .marquee span {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marquee 15s linear infinite;
+    }
+
+    @keyframes marquee {
+      0% { transform: translate(0, 0); }
+      100% { transform: translate(-100%, 0); }
+    }
+
+    /* Éléments nostalgiques */
+    .hit-counter {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background: black;
+      border: 2px solid lime;
+      padding: 5px 10px;
+      color: cyan;
+      font-family: Arial;
+      font-size: 12px;
+    }
+
+    .construction {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-10deg);
+      background: red;
+      color: yellow;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      border: 5px dashed yellow;
+      opacity: 0.8;
+      z-index: 1000;
+      display: none;
+    }
+
+    .blinkies {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin: 20px 0;
+    }
+
+    .blinky {
+      width: 88px;
+      height: 31px;
+      background-image: url('https://cyber.dabamos.de/88x31/anybrowser.gif');
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .columns {
+        flex-direction: column;
+      }
+      
+      h1 {
+        font-size: 36px;
+      }
+      
+      h2 {
+        font-size: 28px;
+      }
     }
   </style>
 </head>
 <body>
+  <!-- Compteur de visites nostalgique -->
+  
+
   <div class="container">
+    <!-- Marquee texte défilant -->
+    <div class="marquee">
+      <span>✦ Bienvenue sur mon portfolio de stage ✦ Découvrez mon travail ✦ Style années 2000 ✦ Bienvenue ✦</span>
+    </div>
+
     <p class="PS">Thème style année 2000, merci de ne pas prendre le style du site au sérieux</p>
+    
     <h1>Mon portfolio de stage<br>Alexandre VILLANI</h1>
 
-    <img src="0fd379b81bc8023064986c9c45f22253_w200.gif" alt="Gif animé" style="width: 80px; height: 80px; display: inline-block;">
+    <!-- Gifs animés -->
+    <div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
+      <img src="0fd379b81bc8023064986c9c45f22253_w200.gif" alt="Monsieur qui danse animé" style="width: 80px; height: 80px;">
+      <img src="https://www.animatedimages.org/data/media/1206/animated-france-image-0012.gif" alt="Gif animé" style="width: 80px; height: 80px;">
+      <img src="https://www.animatedimages.org/data/media/56/animated-computer-image-0019.gif" alt="Construction" style="width: 80px; height: 80px;">
+    </div>
 
     <p style="color: white; background-color: #444; padding: 15px; border: 2px dotted yellow; margin-top: 20px;">
         Bienvenue sur mon portfolio ! Ce document retrace mon stage de deuxième année de BUT Informatique, 
@@ -180,33 +500,42 @@
         mais surtout de ma capacité à m'adapter et à persévérer.
     </p>
 
-    <nav style="background-color: black; padding: 20px; border: 3px dotted cyan;">
+    <!-- Blinkies (boutons web rétro) -->
+    <div class="blinkies">
+      <a href="#about" class="blinky" style="background-image: url('https://cyber.dabamos.de/88x31/geocities.gif');"></a>
+      <a href="#mission" class="blinky" style="background-image: url('https://cyber.dabamos.de/88x31/under-construction.gif');"></a>
+      <a href="#competences" class="blinky" style="background-image: url('https://cyber.dabamos.de/88x31/best-viewed-with-netscape.gif');"></a>
+    </div>
+
+    <nav>
         <h2 style="color: lime; text-align: center;">Sommaire</h2>
-        <ul style="list-style: none; padding: 0; text-align: center;" >
-            <li><a class="linkwebsite" href="#about" style="color: yellow; text-decoration: none;">À propos / Présentation de l'entreprise</a></li>
-            <li><a class="linkwebsite" href="#mission" style="color: yellow; text-decoration: none;">Mission</a></li>
-            <li><a class="linkwebsite" href="#mission" style="color: yellow; text-decoration: none;">Savoir & savoir-faire</a></li>
+        <ul style="list-style: none; padding: 0; text-align: center;">
+            <li><a class="linkwebsite" href="#about" style="color: yellow;">À propos / Présentation de l'entreprise</a></li>
+            <li><a class="linkwebsite" href="#mission" style="color: yellow;">Mission</a></li>
+            <li><a class="linkwebsite" href="#competences" style="color: yellow;">Savoir & savoir-faire</a></li>
+            <li><a class="linkwebsite" href="https://github.com/AlexandreVILLANI" target="_blank" style="color: yellow;">Mon GitHub</a></li>
         </ul>
     </nav>
 
+    <div id="about"></div>
     <h2>À propos / Présentation de l'entreprise</h2>
     <div class="about">
-
         <p>JLConcept, spécialiste de la maintenance informatique à Ronchamp, accompagne depuis plus de 15 ans les entreprises,
          professions libérales et collectivités. Nous bâtissons une relation de confiance durable avec nos clients grâce à des services 
          flexibles et réactifs : 
         télémaintenance, gestion de parc informatique et contrats de maintenance personnalisés.</p>
     </div>
-    <div style="display: flex; justify-content: space-between; margin-top: 20px; gap: 20px;">
-      <div style="flex: 1; background-color: #111; border: 2px dashed cyan; padding: 15px; color: white;">
-        <h3 style="color: lime;">JLConcept</h3>
+    
+    <div class="columns">
+      <div class="column column-cyan">
+        <h3>JLConcept</h3>
         <div style="margin-bottom: 10px;">
-          <img src="jlc-1-e1620636183107-p6yd16e4ayezt7rsv0tnfvpbobrtwyal5jq1v7o7p0.png" alt="Logo de JLConcept" style="max-width: 100%; height: auto; border: 3px ridge magenta;">
+          <img src="jlc-1-e1620636183107-p6yd16e4ayezt7rsv0tnfvpbobrtwyal5jq1v7o7p0.png" alt="Logo de JLConcept">
         </div>
-        <a href="https://jl-concept.fr/" class="linkwebsite" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: yellow; color: blue; font-weight: bold; text-decoration: none; border: 3px outset red; font-family: 'Comic Sans MS';">Visiter le site</a>
+        <a href="https://jl-concept.fr/" class="btn" target="_blank">Visiter le site</a>
       </div>
-      <div style="flex: 1; background-color: #111; border: 2px dashed lime; padding: 15px; color: white;">
-        <h3 style="color: yellow;">Mon tuteur de stage</h3>
+      <div class="column column-lime">
+        <h3>Mon tuteur de stage</h3>
         <p>Durant mon stage chez JLConcept, j'ai été supervisé par M. Jean-Luc Cordier, le gérant de l'entreprise.
          Bien qu'il ne soit pas issu d'un parcours de développeur, 
          son expérience en gestion d'entreprise et en mainteance informatique a représenté une véritable valeur ajoutée. 
@@ -216,55 +545,59 @@
       </div>
     </div>
 
+    <div id="mission"></div>
     <h2>Mission</h2>
     <div class="mission">
-      <p>Dans le cadre de mon stage au sein de l’entreprise <strong>JLConcept</strong>, j’ai été chargé de 
-        <strong>concevoir et développer entièrement</strong> le site web d’une salle de sport pour l’un de leurs clients. <br>
+      <p>Dans le cadre de mon stage au sein de l'entreprise <strong>JLConcept</strong>, j'ai été chargé de 
+        <strong>concevoir et développer entièrement</strong> le site web d'une salle de sport pour l'un de leurs clients. <br>
         Dans un premier temps, le site devait permettre à tout visiteur de <strong>découvrir la salle</strong>, ses 
-        <strong>activités sportives</strong>, les <strong>formules d’abonnement disponibles</strong>, une 
-        <strong>boutique en ligne</strong> présentant les vêtements proposés par la salle, ainsi qu’un 
+        <strong>activités sportives</strong>, les <strong>formules d'abonnement disponibles</strong>, une 
+        <strong>boutique en ligne</strong> présentant les vêtements proposés par la salle, ainsi qu'un 
         <strong>planning des cours</strong> accessibles en consultation.<br>
         <br>
         La seconde partie du projet portait sur la <strong>gestion des clients</strong>. Chaque utilisateur peut 
         créer un compte depuis lequel il peut :
         <ul>
-            <li><strong>Consulter les différentes formules d’abonnement</strong> et s’y abonner,</li>
+            <li><strong>Consulter les différentes formules d'abonnement</strong> et s'y abonner,</li>
             <li><strong>Réserver des créneaux</strong> pour les cours,</li>
-            <li><strong>Obtenir un QR code unique</strong> qui lui permet d’accéder à la salle via un système de contrôle d’accès.</li>
+            <li><strong>Obtenir un QR code unique</strong> qui lui permet d'accéder à la salle via un système de contrôle d'accès.</li>
         </ul>
         La <strong>troisième partie</strong> concernait la <strong>gestion administrateur</strong> du site. Elle permet :
         <ul>
             <li><strong>La gestion complète</strong> des abonnements, des cours, des activités sportives et des utilisateurs,</li>
-            <li><strong>Créer, modifier ou supprimer</strong> ces éléments via une interface d’administration dédiée.</li>
+            <li><strong>Créer, modifier ou supprimer</strong> ces éléments via une interface d'administration dédiée.</li>
         </ul>
         Enfin la <strong>dernière partie</strong> du projet portait sur la <strong>gestion des QRcodes</strong> pour l'accès à la salle :
         <ul>
             <li>Chaque utilisateur connecté au site peut <strong>générer son QR code</strong> unique,</li>
             <li>Le QR code est <strong>stocké dans la base de données</strong>.</li>
-    <li>Le lecteur de QR code envoie des appels à l'API lorsqu’un QR code lui est présenté pour identifier l'utilisateur et le <strong>laisser entrer</strong>.</li>        </ul>
+            <li>Le lecteur de QR code envoie des appels à l'API lorsqu'un QR code lui est présenté pour identifier l'utilisateur et le <strong>laisser entrer</strong>.</li>
+        </ul>
       </p>
     </div>
+
+    <div id="competences"></div>
     <h2>Savoir & savoir-faire</h2>
-    <h3 class="compétence1">Compétence 1 - Réaliser un développement d’application</h3>
+    <h3 class="compétence1">Compétence 1 - Réaliser un développement d'application</h3>
 
     <details>
     <summary>Afficher / Masquer le détail</summary>
     <p class="white">
-        Pour ce projet, j’ai mis en place une architecture web en utilisant différentes technologies et services.
+        Pour ce projet, j'ai mis en place une architecture web en utilisant différentes technologies et services.
         Le <span class="cyan">front-end</span> du site a été développé avec <span class="cyan">Vue.js</span>, puis déployé sur Render.
         Le <span class="rouge">back-end</span>, lui, est une API construite avec <span class="rouge">Node.js</span>,
         également hébergée sur Render. <br>
-        J’ai choisi <span class="cyan">Vue.js</span> et <span class="rouge">Node.js</span> pour leur polyvalence et leur richesse en bibliothèques : par exemple, l’intégration d’un calendrier interactif sur le front et l’envoi d’e-mails automatiques avec Nodemailer côté back.
-        De plus, je connaissais déjà Vue.js et Node.js grâce aux cours suivis à l’IUT, ce qui m’a permis de gagner du temps et de travailler plus efficacement.<br>
+        J'ai choisi <span class="cyan">Vue.js</span> et <span class="rouge">Node.js</span> pour leur polyvalence et leur richesse en bibliothèques : par exemple, l'intégration d'un calendrier interactiv sur le front et l'envoi d'e-mails automatiques avec Nodemailer côté back.
+        De plus, je connaissais déjà Vue.js et Node.js grâce aux cours suivis à l'IUT, ce qui m'a permis de gagner du temps et de travailler plus efficacement.<br>
         Le front communique avec le back via des appels API HTTP,
         principalement pour envoyer ou récupérer des données.<br>
-        Les données sont stockées dans une base <span class="vert">PostgreSQL</span>, que j’ai hébergée sur <span class="vert">Aiven</span>.
+        Les données sont stockées dans une base <span class="vert">PostgreSQL</span>, que j'ai hébergée sur <span class="vert">Aiven</span>.
         Le back-end interagit avec cette base de données en exécutant des requêtes SQL.
         Pour rendre le site accessible facilement, un <span class="magenta">nom de domaine</span> chez <span class="magenta">OVH</span> était déjà en place.
-        J’ai ensuite configuré les DNS pour qu’il pointe vers le front-end hébergé sur Render.
-        Ainsi, lorsqu’un utilisateur tape l’URL du site, il accède directement à l’interface Vue.<br>
-        Enfin, j’ai utilisé <span class="jaune">GitHub</span> pour versionner mon code tout au long du projet, ce qui m’a permis de suivre les modifications
-        et de garder une trace claire de l’évolution du développement. (voir Figure 1)
+        J'ai ensuite configuré les DNS pour qu'il pointe vers le front-end hébergé sur Render.
+        Ainsi, lorsqu'un utilisateur tape l'URL du site, il accède directement à l'interface Vue.<br>
+        Enfin, j'ai utilisé <span class="jaune">GitHub</span> pour versionner mon code tout au long du projet, ce qui m'a permis de suivre les modifications
+        et de garder une trace claire de l'évolution du développement. (voir Figure 1)
     </p>
     <img src="architectureprojet.png" alt="Architecture du projet">
     <figcaption>Figure 1 : architecture du projet</figcaption>
@@ -276,22 +609,24 @@
         Ainsi, après chaque push, Render déploie automatiquement le site web. Même pour relier le nom de domaine,
         il suffit de suivre les instructions fournies par Render, ce qui rend le processus très fluide à mettre en place.
     </p>
-    <h3> Architecture du back-end</h4>
+    <h3> Architecture du back-end</h3>
     <p class="white">
-        Pour ce projet, l’architecture mise en place repose sur deux parties indépendantes : un front-end développé avec Vue.js et un back-end en Node.js servant d’API. Contrairement aux architectures monolithiques où tout est regroupé dans une seule application, ici le front et le back sont bien séparés, chacun déployé sur Render.
-        Le front-end interagit avec l’API grâce à des requêtes HTTP envoyées via Axios. L’accès au site passe par un nom de domaine hébergé sur OVH, configuré pour pointer vers l’application front-end déployée sur Render.
-        Côté back-end, l’organisation du code suit une structure claire et modulaire :
+        Pour ce projet, l'architecture mise en place repose sur deux parties indépendantes : un front-end développé avec Vue.js et un back-end en Node.js servant d'API. Contrairement aux architectures monolithiques où tout est regroupé dans une seule application, ici le front et le back sont bien séparés, chacun déployé sur Render.
+        Le front-end interagit avec l'API grâce à des requêtes HTTP envoyées via Axios. L'accès au site passe par un nom de domaine hébergé sur OVH, configuré pour pointer vers l'application front-end déployée sur Render.
+        Côté back-end, l'organisation du code suit une structure claire et modulaire :
         <ul>
-            <li class="oui">Routes : les routes définissent les points d’entrée de l’API. Elles reçoivent les requêtes HTTP et les redirigent vers les contrôleurs associés.</li>
+            <li class="oui">Routes : les routes définissent les points d'entrée de l'API. Elles reçoivent les requêtes HTTP et les redirigent vers les contrôleurs associés.</li>
             <li class="oui">Contrôleurs : chaque contrôleur est responsable du traitement de la requête reçue. Il fait le lien entre la route et la logique métier.</li>
-            <li class="oui">Services : les services contiennent la logique métier principale. Ils sont chargés de faire les traitements nécessaires, comme l'exécution de requêtes SQL vers la base de données PostgreSQL (hébergée sur Aiven) ou l’envoi d’e-mails (par exemple, pour les demandes à l’administrateur).</li>
+            <li class="oui">Services : les services contiennent la logique métier principale. Ils sont chargés de faire les traitements nécessaires, comme l'exécution de requêtes SQL vers la base de données PostgreSQL (hébergée sur Aiven) ou l'envoi d'e-mails (par exemple, pour les demandes à l'administrateur).</li>
         </ul>
         <img src="swagger.png">
         <figcaption>Figure 2 : Une partie de la documentation Swagger du back-end</figcaption>
+
+    <h3> Partie Administrateur</h3>
       <p class="white"> 
-        Comme le site avait vocation à évoluer — c’est-à-dire que les activités sportives, les abonnements, les cours disponibles 
+        Comme le site avait vocation à évoluer — c'est-à-dire que les activités sportives, les abonnements, les cours disponibles 
         ainsi que les articles de sport en vente étaient amenés à changer au fil du temps — il était nécessaire de mettre en place 
-        une interface d’administration.  
+        une interface d'administration.  
         Une page dédiée aux administrateurs a donc été développée afin de permettre la gestion complète de ces différents éléments (voir Figure 4). 
       </p>
 
@@ -324,9 +659,25 @@
         <figcaption>Figure 5 : Formulaire pour modifier une activité</figcaption>
         <img src="updateBackend.png">
         <figcaption>Figure 6 : Requête PATCH pour modifier une activité</figcaption>
-
-        
-
+      <h3> Problème du multi-site </h3>
+      <p class="white">
+        Le code du site étant hébergé sur deux serveurs distincts — un pour le front-end et un pour le back-end —,
+        il s'agit d’un <span class="cyan">multi-site</span>.  
+        En effet, le front-end est accessible via l’URL principale du site, tandis que le back-end l’est via une autre URL distincte.
+        <br><br>
+        Cette architecture pose un problème pour la gestion des sessions, car le front-end et le back-end ne partagent pas le même domaine.
+        La plupart des navigateurs gèrent cela sans problème, mais au cours du développement, j’ai constaté que les sessions ne fonctionnaient pas correctement sur Safari.
+        <br><br>
+        Safari active par défaut une option appelée <em>"Empêcher le suivi intersites"</em>, qui bloque le partage des cookies de session entre deux domaines différents.
+        En conséquence, les utilisateurs ne pouvaient pas se connecter au site depuis ce navigateur.
+        <br><br>
+        Pour résoudre ce problème, j’ai tenté de configurer le back-end afin qu’il utilise un cookie de session associé au même domaine que le front-end.
+        Toutefois, Safari continue de bloquer les cookies tiers, même avec cette configuration.
+        <br><br>
+        Ne souhaitant pas modifier entièrement le système d’authentification — par souci de sécurité et de délais —,
+        j’ai choisi d’implémenter une solution temporaire côté front-end : si l’utilisateur accède au site depuis Safari,
+        un message d’avertissement s’affiche pour l’informer que certaines fonctionnalités, comme la connexion, peuvent ne pas fonctionner.
+      </p>
     </details>
 
     <h3 class="compétence2">Compétence 2 - Optimiser des applications</h3>
@@ -344,7 +695,7 @@
             <li class="oui">Validation des entrées utilisateur pour éviter les injections SQL et les attaques XSS (Cross-Site Scripting),</li>
         </ul>
 
-    <h3> Gestion des erreurs et des exceptions</h3>
+    <h3> Envoie de mail</h3>
     <p class="white">
         L’un des premiers problèmes rencontrés concernait la gestion des abonnements. 
         En tant qu’étudiant en deuxième année, je n’étais pas en mesure de mettre en place un véritable système de paiement en 
@@ -362,10 +713,13 @@
         </p>
         <p class="white">
         Le back-end traite ensuite cette demande, récupère l’adresse e-mail de l’administrateur depuis la base de données, puis lui envoie 
-        un mail automatique contenant les informations de la demande (Figure 7 et 8). L’administrateur peut alors répondre au client par mail 
+        un mail automatique contenant les informations de la demande (Figure 7). L’administrateur peut alors répondre au client par mail 
         ou directement lors de sa venue pour finaliser l’inscription et le paiement en salle.</p>
     </p>
+    <img src="mailadmin.png" >
+    <figcaption>Figure 7 : E-Mail reçu par l'administrateur dans ça boîte mail</figcaption>
 
+<h3> Gestion du QRcode</h3>
     <p class="white">
         Une autre problème était la gestion du QRcode pour l’accès à la salle.
         En effet, le gérant de la salle souhaitait que chaque client puisse accéder à la salle de sport de manière autonome,
